@@ -1,0 +1,63 @@
+# personal information
+tel: ""
+fullName: ""
+email: ""
+desired_position: ""
+location: ""
+summary: ""
+
+# work experience
+work_exp:
+  - company: ""
+    title: ""
+    start_m_y: ""
+    end_m_y: ""
+    city: ""
+    company_desc: ""
+    duties:
+      - name: ""
+        details:
+          - ""
+          - ""
+      - name: ""
+        details:
+          - ""
+          - ""
+
+# education
+education:
+  - institute: ""
+    field: ""
+    start_m_y: ""
+    end_m_y: ""
+    city: ""
+    highlights:
+      - name: ""
+        details:
+          - ""
+          - ""
+
+# professional skills
+pro_skills:
+  - nature: ""
+    items:
+      - name: ""
+        details:
+          - ""
+          - ""
+      - name: ""
+        details:
+          - ""
+          - ""
+
+# languages
+languages:
+  - name: ""
+    proficiency: ""
+
+# additional info
+additional_info:
+  - Current Salary: ""
+  - Expected Salary: ""
+  - Availability: ""
+  - Visa Status: ""

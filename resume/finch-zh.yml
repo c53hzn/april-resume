@@ -1,0 +1,97 @@
+# personal information
+tel: (917)285-7362
+fullName: 哈罗德·芬奇
+email: haroldbird233@asdf.com
+desired_position: 电脑工程师
+location: 纽约
+summary: 自学成才的电脑天才，人工智能之父，世界的救星。
+
+# work experience
+work_exp: 
+  - company: N/A
+    title: 亿万富翁
+    start_m_y: 2012
+    end_m_y: 2016
+    city: 纽约
+    company_desc: 他的财富来源不得而知，但十分稳定
+    duties:
+      - name: 开发了一个全知全能的人工智能
+        details:
+          - 教会了机器如何拯救人类
+          - 教会了机器如何下国际象棋
+  # if same company then no need for company name/city/company description
+  - title: 百万富翁
+    start_m_y: "???"
+    end_m_y: 2012
+    duties:
+      - name: 开发了一个全知全能的人工智能
+        details:
+          - 教会了机器如何拯救人类
+          - 教会了机器如何下国际象棋
+  - company: 通用遗产保险
+    title: 保险业务员
+    start_m_y: "???"
+    end_m_y: 2016
+    city: 纽约
+    company_desc: 一家保险公司
+    duties:
+      - name: "保险调查:"
+        details:
+          - 接触“号码”的家人并收集相关信息，有时会匿名提供经济支援
+      - name: "拯救无关号码:"
+        details:
+          - 辨别“号码”到底是行凶者还是被害者
+  - company: IFT, Inc.
+    title: 软件工程师
+    start_m_y: 1983
+    end_m_y: 2011
+    city: 纽约
+    company_desc: 世界上电脑科技领域首屈一指的公司
+    duties:
+      - name: "基层程序员:"
+        details:
+          - 假装效率低下
+          - 时常不在岗
+      - name: "其实暗地里是公司高层:"
+        details:
+          - 秘密地雇佣了某人(219)
+          - 秘密地开除了自己(102)
+
+# education
+education: 
+  - institute: 麻省理工学院
+    field: 工程学
+    start_m_y: 1980
+    end_m_y: 1983
+    city: 马萨诸塞州剑桥市
+    highlights: 
+      - name: "突出事迹:" 
+        details: 
+        - 退学
+
+# professional skills
+pro_skills: 
+  - nature: 黑客技巧
+    names: 
+      - C语言
+    details: 
+      - 假扮数学老师，教导学生开发了一项大型工程
+  - nature: 金融知识
+    names: 
+      - 股市操纵
+    details: 
+      - 卖空了一家药企的股票
+      - 阻止了一场股市风暴
+  - nature: 社交技巧
+    names: 
+      - 同情心和无私的爱
+    details: 
+      - "\"人际交往\"并不是他的强项，但是他确实展现出了对整个人类的善意，包括对他的那些对手"
+
+# Languages
+languages:
+  - name: 英语
+
+# additional_info
+additional_info:
+  - 婚姻状况: 已订婚

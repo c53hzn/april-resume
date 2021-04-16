@@ -1,0 +1,103 @@
+# personal information
+tel: (917)285-7362
+fullName: Harold Finch
+email: haroldbird233@asdf.com
+desired_position: Computer Engineer
+location: New York
+summary: A self-taught computer genius, father of AI, savior of the world.
+
+# work experience
+work_exp: 
+  - company: N/A
+    title: Billionare
+    start_m_y: 2012
+    end_m_y: 2016
+    city: New York
+    company_desc: His source of wealth is unknown yet reliable.
+    duties:
+      - name: Develop an all-seeing AI
+        details:
+          - Taught the Machine to save everyone
+          - Taught the Machine how to play chess
+  # if same company then no need for company name/city/company description
+  - title: Millionaire
+    start_m_y: "???"
+    end_m_y: 2012
+    duties:
+      - name: Develop an all-seeing AI
+        details:
+          - Taught the Machine to save everyone
+          - Taught the Machine how to play chess
+  - company: Universal Heritage Insurance
+    title: Insurance Underwriter
+    start_m_y: "???"
+    end_m_y: 2016
+    city: New York
+    company_desc: An insurance company.
+    duties:
+      - name: "Work as an investigator:"
+        details:
+          - Approach families of the numbers and collect relevant information,
+            sometimes provide anonymous financial aid
+      - name: "Save the irrelevant numbers:"
+        details:
+          - Identify the irrelevant number as victim or perpetrator
+  - company: IFT, Inc.
+    title: Software Engineer
+    start_m_y: 1983
+    end_m_y: 2011
+    city: New York
+    company_desc: This company receives a reputation as a world leader in computer
+      technology.
+    duties:
+      - name: "Work as a low-level employee:"
+        details:
+          - Pretend to be inefficient in coding
+          - Constantly disappearing from work
+      - name: "Secretly being a high level executive:"
+        details:
+          - Hired someone secretly(219)
+          - Fired himself secretly(102)
+
+# education
+education: 
+  - institute: Massachusetts Institute of Technology
+    field: Egineering
+    start_m_y: 1980
+    end_m_y: 1983
+    city: Cambridge, MA
+    highlights: 
+      - name: "Education highlights:" 
+        details: 
+        - Dropout
+
+# professional skills
+pro_skills: 
+  - nature: Hacking skills
+    names: 
+      - C language
+    details: 
+      - Instructed a student on building a large program once in an undercover 
+        mission when he pretended to be a math teacher
+    isDisplayItem: true
+  - nature: Financial knowledge
+    names: 
+      - Stock market manipulation
+    details: 
+      - Short sold a medical company's stocks
+      - Prevented a financial crisis in a stock exchange
+  - nature: People skills
+    names: 
+      - Compasion and selfless love
+    details: 
+      - "\"Human-interaction\" is said to not be his best strenth, however 
+        Finch has demonstrated his kindness and caring for all man-kind, including 
+        those posing against him"
+
+# Languages
+languages:
+  - name: English
+
+# additional_info
+additional_info:
+  - Marital Status: Engaged
