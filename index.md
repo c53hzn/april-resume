@@ -1,37 +1,61 @@
-## Welcome to GitHub Pages
+[How to use](#How-to-use)
 
-You can use the [editor on GitHub](https://github.com/c53hzn/april-resume/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[使用说明](#使用说明)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Live demo](https://www.houzhenni.com/resume)
 
-### Markdown
+## How to use
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This is a resume app that uses Vite and Vue to render data, you can also use browser to print out result as PDF.
 
-```markdown
-Syntax highlighted code block
+First clone this repo to your computer
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+git clone https://github.com/c53hzn/april-cms
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Then install dependencies
 
-### Jekyll Themes
+```
+npm install
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/c53hzn/april-resume/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Then run script to view demo
 
-### Support or Contact
+```
+npm run dev
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Then go to your browser(Chrome is strongly recommended), go to `localhost:3000`, your resume is ready, you can switch from the 4 layouts and 2 languages, and you can click `print` to export selected resume as PDF format.
+
+If you want to modify the sample resume, go to `resume/` folder, modify the sample resume yaml file, or save as new yaml file and specify the new yaml file name in `src/resume.config.js`, you will be able to view changes immediately.
+
+You can also generate static files and add html file to your website as your resume page.
+
+## 使用说明
+
+此项目是Vite和Vue驱动的简历生成器，可以在浏览器里导出简历为PDF。
+
+先把项目克隆到你的电脑上
+
+```
+git clone https://github.com/c53hzn/april-cms
+```
+
+然后安装依赖
+
+```
+npm install
+```
+
+运行脚本开启开发模式
+
+```
+npm run dev
+```
+
+然后在浏览器（Chrome上可有最佳体验）里打开 `localhost:3000` 即可查看 Demo 简历，APP 中可选 4 款设计，可切换中英文，可点击 `print` 输出 PDF。
+
+如需修改简历内容，可进入`resume/` 文件夹，修改 yaml 文件内容，或者另存为新的 yaml 文件，并在 `src/resume.config.js` 中写明新的简历文件名，刷新页面即可看到新内容。
+
+你也可以生成静态文件，上传到网站上作为自己的简历页。
