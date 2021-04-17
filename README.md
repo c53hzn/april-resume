@@ -1,8 +1,20 @@
+## Summary
+
+A resume generator powered by Vite & Vue.
+
+Write your resume like a normal document in yaml format, then get 4 types of layout designs, you can generate static HTML or output as PDF format.
+
+此建立生成器由 Vite 和 Vue 驱动。
+
+只需用 yaml 格式书写简历文档，即可获得 4 种排版设计，你可以选择生成静态 HTML ，或者输出为 PDF 格式。
+
+[Live demo](https://www.houzhenni.com/resume)
+
+## Table of Contents
+
 [How to use](#How-to-use)
 
 [使用说明](#使用说明)
-
-[Live demo](https://www.houzhenni.com/resume)
 
 ## How to use
 
