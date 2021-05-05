@@ -45,42 +45,42 @@ export default {
 		return {
 			lang: 'en',
 			resumeObj: {
-		        en: {}, 
-		        zh: {}
+	        en: {}, 
+	        zh: {}
 		    },
 		    modes_en: {
-		        en: {status: true},
-		        zh: {status: false}
+	        en: {status: true},
+	        zh: {status: false}
 		     },
 		    modes_zh: {
-		        en: {status: false},
-		        zh: {status: true}
+	        en: {status: false},
+	        zh: {status: true}
 		    },
 			layout: {
 				'Layout 1': true,
 				'Layout 2': false,
 				'Layout 3': false,
-		        'Layout 4': false
+        'Layout 4': false
 			},
 		   	selectedLayout: 'Layout 1',
 		};
-  	},
-  	mounted() {
-  		this.loadResume();
-  	},
-  	components: {
-	    layout01,
-	    layout02,
-	    layout03,
-	    layout04,
-  	},
+  },
+	mounted() {
+		this.loadResume();
+	},
+	components: {
+    layout01,
+    layout02,
+    layout03,
+    layout04,
+	},
 	computed: {
-	    modes(){
-	      	return this.lang=="zh"?this.modes_zh:this.modes_en;
-	    },
-	    resume() {
-	      	return this.lang=="zh"?this.resumeObj.zh:this.resumeObj.en;
-	    }
+    modes(){
+    	return this.lang=="zh"?this.modes_zh:this.modes_en;
+    },
+    resume() {
+    	return this.lang=="zh"?this.resumeObj.zh:this.resumeObj.en;
+    }
 	},
   methods: {
   	loadResume() {
@@ -88,8 +88,8 @@ export default {
   		var en = getResume(config.en);
 		  var zh = getResume(config.zh);
 		  Promise.all([en,zh]).then(arr=>{
-			 that.resumeObj.en = yaml.parse(arr[0]);
-		      that.resumeObj.zh = yaml.parse(arr[1]);
+        that.resumeObj.en = yaml.parse(arr[0]);
+	      that.resumeObj.zh = yaml.parse(arr[1]);
 		  });
   	},
     changeLayout: function() {
@@ -135,22 +135,22 @@ export default {
 	box-sizing: border-box;
 }
 .main-content {
-    margin: 20px auto;
-    padding: 20px 40px;
-    width: 1080px;
-    min-height: calc(100vh - 189px);
-    background: white;
-    border: 1px solid silver;
-    border-radius: 5px;
+  margin: 20px auto;
+  padding: 20px 40px;
+  width: 1080px;
+  min-height: calc(100vh - 189px);
+  background: white;
+  border: 1px solid silver;
+  border-radius: 5px;
 }
 @media (max-width: 1080px) {
 	.main-content {
-	    margin: 0px;
-	    padding: 10px;
-	    width: auto;
-	    min-height: calc(100vh - 112px);
-	    border: none;
-	    border-radius: 0px;
+    margin: 0px;
+    padding: 10px;
+    width: auto;
+    min-height: calc(100vh - 112px);
+    border: none;
+    border-radius: 0px;
 	}   
 }
 .resume-wrap {
