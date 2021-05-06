@@ -20,10 +20,10 @@ Write your resume like a normal document in yaml format, then get 4 types of lay
 
 This is a resume app that uses Vite and Vue to render data, you can also use browser to print out result as PDF.
 
-First clone this repo to your computer
+First fork this repo and download it to your computer
 
 ```
-git clone https://github.com/c53hzn/april-cms
+git clone https://github.com/<your github id>/april-cms
 ```
 
 Then install dependencies
@@ -48,10 +48,10 @@ You can also generate static files and add html file to your website as your res
 
 此项目是Vite和Vue驱动的简历生成器，可以在浏览器里导出简历为PDF。
 
-先把项目克隆到你的电脑上
+先 fork 此项目并下载到你的电脑上
 
 ```
-git clone https://github.com/c53hzn/april-cms
+git clone https://github.com/<your github id>/april-cms
 ```
 
 然后安装依赖
