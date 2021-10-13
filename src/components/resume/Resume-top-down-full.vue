@@ -100,7 +100,7 @@
         <span
         v-for="(language, language_i) in resume.languages" 
         :key="'language'+language_i">
-          {{language.name}}: {{language.proficiency}}. 
+          {{language.name}}: {{language.proficiency}}&nbsp;|&nbsp;
         </span>
       </div>
       <div class="rsm-header" v-if="resume.additional_info">
