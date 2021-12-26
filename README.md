@@ -23,7 +23,7 @@ This is a resume app that uses Vite and Vue to render data, you can also use bro
 First fork this repo and download it to your computer
 
 ```
-git clone https://github.com/<your github id>/april-cms
+git clone https://github.com/<your github id>/april-resume
 ```
 
 Then install dependencies
@@ -51,7 +51,7 @@ You can also generate static files and add html file to your website as your res
 先 fork 此项目并下载到你的电脑上
 
 ```
-git clone https://github.com/<your github id>/april-cms
+git clone https://github.com/<your github id>/april-resume
 ```
 
 然后安装依赖
